@@ -1,0 +1,23 @@
+.img-card {
+    display: inline-block;
+    width: 150px;
+    height: 180px;
+    border: 1px black solid;
+    font-size: medium;
+    text-align: center;
+
+    /* Put 20 px of horizontal space between these elements. */
+    margin: 0px 10px;
+
+    /* Put 2px of space between the top, right, and left borders and the image.*/
+    padding: 10px 10px 0px 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    font-size: 0;
+}

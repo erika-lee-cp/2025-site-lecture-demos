@@ -1,0 +1,14 @@
+/* Use an element selector to  */
+div {
+    border: 5px solid grey;
+}
+
+/* Use a class selector to set the width to 600px */
+.container {
+    width: 600px;
+}
+
+/* Use an id selector to center the text */
+#container-1 {
+    text-align: center
+}
