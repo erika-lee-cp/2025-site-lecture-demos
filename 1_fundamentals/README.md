@@ -28,14 +28,18 @@ These demos are all HTML, CSS, and vanilla JS. They can easily be run with the [
 
     Demonstrates element selectors.
 
-1. JS - [click handlers]()
+1. JS - [click handlers](click_handlers)
 
-1. JS - [try/catch]()
+    Demonstrates buttons that turn an emoji into sun or moon.
 
-1. JS - [.map()]()
+1. JS - [try/catch](try_catch)
+
+    Demonstrates throwing and catching error when dividing by 0.
+
+1. JS - [.map()](js_map)
 
     Demonstates `.map()` function
 
-1. JS  - [.filter()]()
+1. JS  - [.filter()](js_filter)
 
     Demonstates `.filter()` function
