@@ -1,0 +1,33 @@
+.flex-container {
+    /* Set the flex container display type to flex */
+    display: flex;
+    
+    /* Define the flow direction and if we allow the items to wrap 
+     * Note: This is the same as:
+     * flex-flow: row wrap;
+     */
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    /* Define how to distribute the remaining space with justify-content */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
