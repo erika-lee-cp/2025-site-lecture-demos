@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todo-item {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.todo-check{
+  margin-right: 10px;
+}

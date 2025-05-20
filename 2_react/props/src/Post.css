@@ -1,0 +1,15 @@
+.post {
+    border: grey 1px solid;
+    width: 50%;
+    box-shadow: 5px 5px 5px grey;
+    margin: 10px auto;
+}
+
+.post-likes {
+    margin-bottom: 20px;
+}
+
+.post-name {
+    color: green;
+    font-size: large;
+}

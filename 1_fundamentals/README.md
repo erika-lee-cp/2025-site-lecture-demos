@@ -9,24 +9,24 @@ These demos are all HTML, CSS, and vanilla JS. They can easily be run with the [
 
 1. CSS -[selectors](selectors) 
 
-    Demonstrates CSS element selection with element, class, and ID selectors.
+    Demonstrates CSS element selection with element, class, and ID selectors with simple divs.
 
 1. CSS - [box model](box_model)
 
-    Demonstates difference between padding and margin.
+    Demonstates difference between padding and margin by aligning images with captions in a gallery.
 
 
 1. CSS - [flex box](flexbox)
 
-    Demonstates basic set up with flex box.
+    Demonstates basic set up with flex box, with a number of divs inside of a container.
 
 1. JS - [sum of evens](sum_of_evens)
 
-    Demonstates basic JS syntax: vars and loops.
+    Demonstates basic JS syntax: vars and loops. Solves a basic problem of summing event numbers up to some value N.
 
 1. JS - [DOM - element selectors - The Chipped Cup](element_selectors)
 
-    Demonstrates element selectors.
+    Demonstrates element selectors. Demonstrates element selection on a coffee menu.
 
 1. JS - [click handlers](click_handlers)
 
@@ -38,8 +38,9 @@ These demos are all HTML, CSS, and vanilla JS. They can easily be run with the [
 
 1. JS - [.map()](js_map)
 
-    Demonstates `.map()` function
+    Demonstates `.map()` function over some lists.
 
 1. JS  - [.filter()](js_filter)
 
-    Demonstates `.filter()` function
+    Demonstates `.filter()` function over some lists.
+
