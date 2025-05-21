@@ -23,8 +23,6 @@ function App() {
   const handleDone = (todo) => {
     setTodos((prev) => {
       return prev.map((entry) => {
-        console.log(entry.title);
-        console.log(todo.title)
         if (entry.title === todo.title) {
           return {
             'title': entry.title, 
