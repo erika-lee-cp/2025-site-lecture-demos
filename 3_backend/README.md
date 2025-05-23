@@ -14,15 +14,30 @@ Express servers can be run with `node index.js`.
 
     Demonstrates how to set up some dynamic routes on the server and implements CRUD endpoints. Suggested to use Insomnia or Postman to demo the routes.
 
-1. [DB Tables](db_table)
+    Taken from codepath's demo repo with minor changes.
+
+1. [DB Set up](routing_with_prisma)
 
     Demonstrates how to set up a table in a postgres database using prisma.
 
-1. [Seeding DB](seeding_db)
+    1. Use pgAdmin to create a `users` database.
+    2. Run `npm install prisma --save-dev` and `npx prisma init` to install and initialize Prisma.
+    3. Update the `.env` file with the database credentials.
+    4. Modify the `prisma/schema.prisma` to create a Users model.
+    5. Run `npx prisma migrate dev --name init_users_table` to create the users table.
+    6. Run `npx prisma studio` to see the schema.
 
-    Seeding a db with some initial data. `npm run seed-db`.
 
-1. [Routing with Prisma Client](routing_with_client)
+    Taken from codepath's demo repo with minor changes.
 
-    Demonstrates how to use prisma client to implement route handlers.
+1. [Routing with Prisma Client](routing_with_prisma)
+
+    Demonstrates how to use prisma client to implement route handlers. Uses same dir as previous demo.
+
+    1. Run `npx prisma generate` to generate the Prisma client.
+    2. Create CRUD routes.
+    3. Create `seed.js` to seed the database and update the `schema.prisma` and `package.json` to include the seed script.
+    4. Seed the db with `npm run dev`
+    4. Run `npx prisma studio` to see the populated values.
     
+    Taken from codepath's demo repo with minor changes.
