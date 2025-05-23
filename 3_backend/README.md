@@ -6,13 +6,13 @@ Express servers can be run with `node index.js`.
 
     Demonstrates how to bring up a basic express server, with only 1 basic route (to show it's working).
 
-1. [Routing](routing)
+1. [Routing + Query Params](routing)
 
-    Demonstrates how to set up some basic routes (CRUD) on an express server.
+    Demonstrates how to set up some basic routes on an express server with query params
 
-1. [Query Paramaters](query_params)
+1. [CRUD](crud)
 
-    Demonstrates how to set up some dynamic routes on the server, and use query parameters.
+    Demonstrates how to set up some dynamic routes on the server and implements CRUD endpoints. Suggested to use Insomnia or Postman to demo the routes.
 
 1. [DB Tables](db_table)
 
